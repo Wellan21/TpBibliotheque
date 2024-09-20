@@ -4,7 +4,7 @@ using System.Data.Common;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-var listeUtilisateurs = new List<Utilisateur>();
+var listeUtilisateurs = new List<IUtilisateur>();
 var listeLivres = new List<Livre>();
 
 void creeLivre()
@@ -97,7 +97,7 @@ void listerLivres()
     int cpt = 0;
     foreach (var livre in listeLivres.OrderBy(livre => livre.Titre))
     {
-        Console.WriteLine($"{cpt}. {livre.Titre} par {livre.Auteur} sorti en {livre.AnneeDePublication}. ISBN:{livre.ISBN}");
+        Console.WriteLine($"{cpt}. {livre.Titre} par {livre.Auteur} sorti en {livre.AnneeDePublication}. ISBN:{livre.ISBN} est emprunté : { (livre.EstEmprunter ? "Oui" : "Non" )}");
         cpt++;
     }
 
@@ -113,7 +113,7 @@ void listerUtilisateurs()
     }
 }
 
-void menuUtilisateur(Utilisateur utilisateur)
+void menuUtilisateur(IUtilisateur utilisateur)
 {
 
     while (true)

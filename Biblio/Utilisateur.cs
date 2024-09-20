@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Biblio
 {
-    internal class Utilisateur
+    internal class Utilisateur : IUtilisateur
     {
         protected string nom;
         protected string prenom;
@@ -28,7 +28,7 @@ namespace Biblio
         public string Nom { get => nom; set => nom = value; }
         public string Prenom { get => prenom; set => prenom = value; }
         public int Id { get => id; }
-        internal HashSet<Livre> Livres { get => livres; }
+        public HashSet<Livre> Livres { get => livres; }
 
         public void empruter(Livre livre)
         {
