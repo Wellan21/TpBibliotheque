@@ -3,28 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\iutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\iutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\utilisateurpremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\utilisateurpremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\emprunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\utilisateurpremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\utilisateurpremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trist\\Downloads\\Modified_Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\iutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\iutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|c:\\users\\trist\\source\\repos\\tpbibliotheque\\biblio\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E631F-C79A-474C-A801-32090B03F4FC}|Biblio\\Biblio.csproj|solutionrelative:biblio\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +37,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Modified_Program.cs",
+              "DocumentMoniker": "C:\\Users\\trist\\Downloads\\Modified_Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\Modified_Program.cs",
+              "ToolTip": "C:\\Users\\trist\\Downloads\\Modified_Program.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\Modified_Program.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAiwCYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T14:36:23.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IUtilisateur.cs",
               "DocumentMoniker": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\IUtilisateur.cs",
               "RelativeDocumentMoniker": "Biblio\\IUtilisateur.cs",
               "ToolTip": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\IUtilisateur.cs",
               "RelativeToolTip": "Biblio\\IUtilisateur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T12:44:52.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\Program.cs",
               "RelativeDocumentMoniker": "Biblio\\Program.cs",
               "ToolTip": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\Program.cs",
               "RelativeToolTip": "Biblio\\Program.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAIAwwKIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwCEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T12:43:48.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Emprunt.cs",
               "DocumentMoniker": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\Emprunt.cs",
               "RelativeDocumentMoniker": "Biblio\\Emprunt.cs",
@@ -77,20 +93,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "UtilisateurPremium.cs",
               "DocumentMoniker": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\UtilisateurPremium.cs",
               "RelativeDocumentMoniker": "Biblio\\UtilisateurPremium.cs",
               "ToolTip": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\UtilisateurPremium.cs",
               "RelativeToolTip": "Biblio\\UtilisateurPremium.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T12:28:04.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "livre.cs",
               "DocumentMoniker": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\livre.cs",
               "RelativeDocumentMoniker": "Biblio\\livre.cs",
@@ -103,13 +119,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Utilisateur.cs",
               "DocumentMoniker": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\Utilisateur.cs",
               "RelativeDocumentMoniker": "Biblio\\Utilisateur.cs",
               "ToolTip": "C:\\Users\\trist\\source\\repos\\TpBibliotheque\\Biblio\\Utilisateur.cs",
               "RelativeToolTip": "Biblio\\Utilisateur.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T12:21:08.993Z",
               "EditorCaption": ""

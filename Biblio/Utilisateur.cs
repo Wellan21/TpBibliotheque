@@ -14,50 +14,59 @@ namespace Biblio
         protected string prenom;
         protected int id;
         protected int NbLivreMax;
-        protected HashSet<Livre> livres;
-
+        protected HashSet<Emprunt> emprunts;
+        
         public Utilisateur(string nom, string prenom, int id)
         {
             this.nom = nom;
             this.prenom = prenom;
             this.id = id;
             this.NbLivreMax = 3;
-            this.livres = new HashSet<Livre>();
+            this.emprunts = new HashSet<Emprunt>();
         }
 
         public string Nom { get => nom; set => nom = value; }
         public string Prenom { get => prenom; set => prenom = value; }
         public int Id { get => id; }
-        public HashSet<Livre> Livres { get => livres; }
+        public HashSet<Emprunt> Emprunts { get => emprunts; }
 
         public void empruter(Livre livre)
         {
             if (!livre.EstEmprunter)
-                if (livres.Count >= NbLivreMax)
+                if (emprunts.Count >= NbLivreMax)
                 {
                     throw new Exception("Le nombre de livre max a été dépassé");
                 }
-            livres.Add(livre);
+            emprunts.Add(new Emprunt(livre,this));
             livre.EstEmprunter = true;
 
         }
-        public void rendre(Livre livre)
+        public void rendre(Emprunt emprunt)
         {
-            if (livres.Contains(livre))
+           
+            if (!emprunts.Contains(emprunt))
             {
                 throw new Exception("le livre n'est pas emprunter par l'utilisateur");
             }
-            livres.Remove(livre);
-            livre.EstEmprunter = false;
+            if (DateTime.Now.Subtract(emprunt.date).Days > 15)
+            {
+                this.penalite(); 
+            }
+            emprunts.Remove(emprunt); 
+            emprunt.Livre.EstEmprunter = false;
         }
         public void listerLivres()
         {
            int cpt = 0;
-            foreach (var livre in livres.OrderBy(livre => livre.Titre))
+            foreach (var emp in emprunts.OrderBy(emp => emp.Livre.Titre))
             {
-                Console.WriteLine($"{cpt}. {livre.Titre} par {livre.Auteur} sorti en {livre.AnneeDePublication}. ISBN:{livre.ISBN}");
+                Console.WriteLine($"{cpt}. {emp.Livre.Titre} par {emp.Livre.Auteur} sorti en {emp.Livre.AnneeDePublication}. ISBN:{emp.Livre.ISBN}");
                 cpt++;
             }
+        }
+        public void penalite()
+        {
+            throw new NotImplementedException();  
         }
     }
 }

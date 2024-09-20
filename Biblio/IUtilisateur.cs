@@ -12,9 +12,9 @@ namespace Biblio
         public string Prenom { get; set; }
         string Nom { get; set; }
         void empruter(Livre livre);
-        void rendre(Livre livre);
+        void rendre(Emprunt emprunt);
         public void listerLivres();
-        internal HashSet<Livre> Livres { get; }
+        internal HashSet<Emprunt> Emprunts { get; }
 
     }
 }
